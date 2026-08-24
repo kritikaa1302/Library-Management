@@ -1,0 +1,31 @@
+/* LibraSphere theme tokens */
+:root {
+  --bg: #fef6fb;
+  --surface: #ffffff;
+  --primary: #ec489a;
+  --primary-dark: #db2777;
+  --primary-light: #fbcfe8;
+  --primary-soft: #ffe5f1;
+  --text-main: #1e1b2c;
+  --text-muted: #6b7280;
+  --border: #f1e2ea;
+  --shadow-sm:
+    0 10px 25px -5px rgba(236, 72, 154, 0.08),
+    0 8px 10px -6px rgba(0, 0, 0, 0.02);
+  --shadow-md: 0 20px 35px -10px rgba(236, 72, 154, 0.12);
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #3b82f6;
+}
+
+body.dark {
+  --bg: #0e0c1a;
+  --surface: #1e1a2f;
+  --text-main: #f0eefb;
+  --text-muted: #a8a4c2;
+  --border: #2e2a48;
+  --primary-soft: #2d2442;
+  --shadow-sm: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 20px 35px -10px rgba(0, 0, 0, 0.5);
+}
