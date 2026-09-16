@@ -11,7 +11,6 @@ import { isAdmin } from '../middleware/admin.js';
 import upload from '../middleware/upload.js';
 
 const router = express.Router();
-
 router.get('/', getBooks);
 router.get('/:id', getBookById);
 router.post('/', authenticate, isAdmin, upload.single('coverImage'), createBook);
