@@ -758,8 +758,6 @@ See the `LICENSE` file for more information.
 **Your Name**
 
 
-🔗 GitHub: `https://github.com/vijeelakshmi`
-
 ---
 
 # ⭐ Support
