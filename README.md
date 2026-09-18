@@ -4,20 +4,10 @@
   <strong>A modern full-stack MERN application for smarter digital library management.</strong>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-18-blue?logo=react" alt="React">
-  <img src="https://img.shields.io/badge/Node.js-18+-green?logo=node.js" alt="Node.js">
-  <img src="https://img.shields.io/badge/Express.js-Backend-black?logo=express" alt="Express">
-  <img src="https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb" alt="MongoDB">
-  <img src="https://img.shields.io/badge/JWT-Authentication-purple?logo=jsonwebtokens" alt="JWT">
-  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
-</p>
-
----
-
 ## 📌 Project Overview
 
-**LibraSphere** is a full-stack **Digital Library Management System** built using the **MERN stack — MongoDB, Express.js, React.js, and Node.js**.
+**Library-Management
+** is a full-stack **Digital Library Management System** built using the **MERN stack — MongoDB, Express.js, React.js, and Node.js**.
 
 The system provides a centralized platform for managing books, users, borrowing activities, wishlists, categories, announcements, and library analytics.
 
@@ -298,9 +288,10 @@ Make sure the following are installed:
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/librasphere.git
+git clone https://github.com/yourusername/Library-Management.git
 
-cd librasphere
+cd Library-Management
+
 ```
 
 ---
