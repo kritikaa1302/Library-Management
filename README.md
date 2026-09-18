@@ -308,7 +308,7 @@ Create a `.env` file inside the `backend` folder:
 
 ```env
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/librasphere
+MONGO_URI=mongodb://localhost:27017/Library-Management
 JWT_SECRET=your_super_secret_key
 NODE_ENV=development
 ```
@@ -704,7 +704,7 @@ Contributions are welcome!
 # Fork the repository
 
 # Clone your fork
-git clone https://github.com/yourusername/librasphere.git
+git clone https://github.com/yourusername/Library-Management.git
 
 # Create a new branch
 git checkout -b feature/new-feature
@@ -749,17 +749,7 @@ See the `LICENSE` file for more information.
 **Your Name**
 
 
----
 
-# ⭐ Support
-
-If you found **LibraSphere** useful or interesting, consider giving the repository a ⭐ on GitHub.
-
----
-
-<p align="center">
-  📚 <strong>LibraSphere</strong> — Manage. Borrow. Discover. Read.
-</p>
 
 <p align="center">
   <strong>Happy Reading! 📖</strong>
