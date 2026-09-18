@@ -1,8 +1,3 @@
-# 📚 LibraSphere — Digital Library Management System
-
-<p align="center">
-  <strong>A modern full-stack MERN application for smarter digital library management.</strong>
-</p>
 
 ## 📌 Project Overview
 
