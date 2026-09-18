@@ -1,5 +1,5 @@
 
-## 📌 Project Overview
+## Project Overview
 
 **Library-Management
 ** is a full-stack **Digital Library Management System** built using the **MERN stack — MongoDB, Express.js, React.js, and Node.js**.
