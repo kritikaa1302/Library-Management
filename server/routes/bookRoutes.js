@@ -9,7 +9,6 @@ import {
 import { authenticate } from '../middleware/auth.js';
 import { isAdmin } from '../middleware/admin.js';
 import upload from '../middleware/upload.js';
-
 const router = express.Router();
 router.get('/', getBooks);
 router.get('/:id', getBookById);
