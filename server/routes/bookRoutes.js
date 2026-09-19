@@ -15,5 +15,4 @@ router.get('/:id', getBookById);
 router.post('/', authenticate, isAdmin, upload.single('coverImage'), createBook);
 router.put('/:id', authenticate, isAdmin, upload.single('coverImage'), updateBook);
 router.delete('/:id', authenticate, isAdmin, deleteBook);
-
 export default router;
