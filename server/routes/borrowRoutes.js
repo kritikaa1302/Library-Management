@@ -12,5 +12,4 @@ router.post('/borrow', authenticate, borrowBook);
 router.put('/return/:id', authenticate, returnBook);
 router.get('/user', authenticate, getUserBorrows);
 router.get('/all', authenticate, isAdmin, getAllBorrows);
-
 export default router;
