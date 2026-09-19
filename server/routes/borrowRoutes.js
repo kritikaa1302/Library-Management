@@ -7,9 +7,7 @@ import {
 } from '../controllers/borrowController.js';
 import { authenticate } from '../middleware/auth.js';
 import { isAdmin } from '../middleware/admin.js';
-
 const router = express.Router();
-
 router.post('/borrow', authenticate, borrowBook);
 router.put('/return/:id', authenticate, returnBook);
 router.get('/user', authenticate, getUserBorrows);
