@@ -3,7 +3,6 @@ import { getCategories, createCategory, deleteCategory } from '../controllers/ca
 import { authenticate } from '../middleware/auth.js';
 import { isAdmin } from '../middleware/admin.js';
 const router = express.Router();
-
 router.get('/', getCategories);
 router.post('/', authenticate, isAdmin, createCategory);
 router.delete('/:name', authenticate, isAdmin, deleteCategory);
